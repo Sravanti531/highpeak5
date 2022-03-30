@@ -31,7 +31,7 @@ public int compare(, Item a, Item b){
 return a.price-b.price;}});
 intmin_diff=goodies.items.get(goodies_items.size()-1). price;
 int min_index=0;
-for (int i=0;I<goodies.items.size()no_of_employees+1;I++){
+for (int i=0;i<goodies.items.size()no_of_employees+1;I++){
 if(diff<=min_diff){
 min_diff=diff;
 min_index=i;
@@ -43,4 +43,5 @@ fw.write("The goodies selected for distribution:\n\n"); for (int I=min_index:I<m
 {
 fw.write(goodies.items.get(I). toString ()+"\n");
 fw.write("\n and the difference between min and Max price is"+min_diff);
-fw.close();
+fw.close();}
+}
